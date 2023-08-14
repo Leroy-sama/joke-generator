@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: #A6B1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.joke-area {
+    background-color: #424874;
+    padding: 25px;
+    margin: 20px;
+}
+
+.the-joke {
+    color: #F4EEFF;
+    margin-bottom: 20px;
+}
+
+.joke-btn {
+    display: flex;
+    padding: 5px 15px;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.joke-btn:hover,
+.joke-btn:active {
+    scale: .9;
+    color: #424874;
+}
